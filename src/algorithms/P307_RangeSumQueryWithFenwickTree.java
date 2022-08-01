@@ -1,6 +1,6 @@
 package algorithms;
 
-public class RangeSumQueryWithFenwickTree_307 {
+public class P307_RangeSumQueryWithFenwickTree {
 
 	class NumArray {
 
@@ -58,11 +58,10 @@ public class RangeSumQueryWithFenwickTree_307 {
 	}
 	
 	public static void main(String[] args) {
-		NumArray arr = new RangeSumQueryWithFenwickTree_307().new NumArray(new int[] { 7, 2, 7, 2, 0} );
+		NumArray arr = new P307_RangeSumQueryWithFenwickTree().new NumArray(new int[] { 7, 2, 7, 2, 0} );
 		arr.update(4, 6);
 		arr.update(0, 2);
 		arr.update(0, 9);
-		System.out.println(arr.sumRange(0, 4));
 	}
 
 }
